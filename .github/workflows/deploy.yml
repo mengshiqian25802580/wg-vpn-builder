@@ -1,6 +1,9 @@
 name: Build WARP WireGuard Config
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
