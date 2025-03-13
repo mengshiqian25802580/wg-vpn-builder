@@ -33,7 +33,7 @@ jobs:
         mv wgcf-profile.conf wireguard/wg0.conf
 
     - name: Upload WireGuard config
-      uses: actions/upload-artifact@v0.3.0
+      uses: actions/upload-artifact@v3.0
       with:
         name: wireguard-config
         path: wireguard/wg0.conf
